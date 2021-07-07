@@ -21,4 +21,4 @@ University of California at Berkeley
 ## 제안 방법
 LFS는 write를 sequantial하게 함으로서 write의 대역폭을 증가시킨다.  
 write를 할 때 우선 메모리에 log 형태로 계속 작성하다가 메모리가 전부 차게 되면 그대로 디스크에 다시 쓴다.  
-LFS가 sequantial하게 inode를 계속해서 갱신하기 때문에 inode가 여러곳에 흩어지게 된다. 따라서 흩어진 inode를 찾고 관리하기 위해서 **inode map** 
+LFS가 sequantial하게 inode를 계속해서 갱신하기 때문에 inode가 여러곳에 흩어지게 된다. 따라서 흩어진 inode를 찾고 관리하기 위해서 **inode map**을 사용한다.
