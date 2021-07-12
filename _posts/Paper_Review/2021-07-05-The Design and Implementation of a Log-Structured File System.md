@@ -1,7 +1,7 @@
 ---
-title: The Design and Implementation of a Log-Structured File System
+title: "The Design and Implementation of a Log-Structured File System"
 date: 2021-07-05 12:00:00 +/-TTTT
-categories: [Paper Review, LFS]
+categories: [Paper Review]
 tags: [LFS]     # TAG names should always be lowercase
 ---
 
@@ -24,7 +24,7 @@ write를 할 때 우선 메모리에 log 형태로 계속 작성하다가 메모
 LFS가 sequantial하게 inode를 계속해서 갱신하기 때문에 inode가 여러곳에 흩어지게 된다. 따라서 흩어진 inode를 찾고 관리하기 위해서 **inode map**을 사용한다.
 
 ## Segment Cleaning Policy
-LFS는 **In-place Update**(값을 직접 수정하지 않고 뒤에 새롭게 씀)를 사용하기 때문에 시간이 지날수록 invalid한 블록들이 쌓이게 된다. 따라서 이러한 블록들을 지워 다시 가용한 블록으로 만들어주는 과정이 필요하다. 데이터가 지워질 때에는 세그먼트 단위로 이루어 지는데 여기서 중요하게 다뤄야 할 몇 가지 issue를 소개하겠다.
+LFS는 **Out-of-place Update**(값을 직접 수정하지 않고 뒤에 새롭게 씀)를 사용하기 때문에 시간이 지날수록 invalid한 블록들이 쌓이게 된다. 따라서 이러한 블록들을 지워 다시 가용한 블록으로 만들어주는 과정이 필요하다. 데이터가 지워질 때에는 세그먼트 단위로 이루어 지는데 여기서 중요하게 다뤄야 할 몇 가지 issue를 소개하겠다.
 
 1. 언제 일어나는가?  
 : 한가할 때 or 디스크 가용공간이 부족할 때
