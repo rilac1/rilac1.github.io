@@ -48,16 +48,22 @@ tags: [MongoDB]     # TAG names should always be lowercase
 
 ---
 ## VScode Extension을 활용한 GUI 사용
-1. extension "MongoDB for VS Code" 설치
-![VS Code](https://user-images.githubusercontent.com/67721382/125255396-55abe580-e336-11eb-913b-3d3f99a4a58f.PNG)
-
-2. MongoDB 주소 확인
+1. MongoDB 주소 확인
     ```
     mongo
     ```
-    ![MongoDB 주소](https://user-images.githubusercontent.com/67721382/125255821-c9e68900-e336-11eb-9cd1-92dd240e42a3.png)
+    ![MongoDB 주소](https://user-images.githubusercontent.com/67721382/125260235-17fd8b80-e33b-11eb-8cac-d1948f4b21df.png)
 
-3. 확인한 주소 입력하면 끝!
+2. extension "MongoDB for VS Code" 설치
+    ![VS Code](https://code.visualstudio.com/assets/docs/azure/mongodb/install-cosmosdb-extension.png)
+
+3. Connect
+    ![제목 없음](https://user-images.githubusercontent.com/67721382/125259569-65c5c400-e33a-11eb-89fa-077945d3b826.png)
+
+4. 확인한 주소 입력
+    ![캡처](https://user-images.githubusercontent.com/67721382/125259888-bb9a6c00-e33a-11eb-9f92-d053e0ad55d1.PNG)
+
+5. 짠!
     ![캡처](https://user-images.githubusercontent.com/67721382/125256454-6ad54400-e337-11eb-83ec-9452e073e972.PNG)
 
 ## MongoDB 사용하기
@@ -66,7 +72,7 @@ tags: [MongoDB]     # TAG names should always be lowercase
 
 1. 사용할 데이터베이스 선택 / 생성
     ```
-    > use test      # use [DB 이름]
+    > use test                                    # use [DB 이름]
     ```
 2. 데이터베이스 리스트 확인
     ```
