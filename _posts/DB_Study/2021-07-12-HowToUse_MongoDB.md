@@ -54,11 +54,11 @@ tags: [MongoDB]     # TAG names should always be lowercase
     ```
     ![MongoDB 주소](https://user-images.githubusercontent.com/67721382/125260235-17fd8b80-e33b-11eb-8cac-d1948f4b21df.png)
 
-2. extension "MongoDB for VS Code" 설치
-    ![VS Code](https://code.visualstudio.com/assets/docs/azure/mongodb/install-cosmosdb-extension.png)
+2. extension "MongoDB for VS Code" 설치  
+    ![](https://code.visualstudio.com/assets/docs/azure/mongodb/install-cosmosdb-extension.png)
 
 3. Connect
-    ![제목 없음](https://user-images.githubusercontent.com/67721382/125259569-65c5c400-e33a-11eb-89fa-077945d3b826.png)
+    ![](https://user-images.githubusercontent.com/67721382/125259569-65c5c400-e33a-11eb-89fa-077945d3b826.png)
 
 4. 확인한 주소 입력
     ![캡처](https://user-images.githubusercontent.com/67721382/125259888-bb9a6c00-e33a-11eb-9f92-d053e0ad55d1.PNG)
@@ -85,3 +85,4 @@ tags: [MongoDB]     # TAG names should always be lowercase
 4. 데이터 삭제
     ```
     > db.bookreview.remove({title: '열혈 C'})     # db.[Collection 이름].remove()
+    ```
