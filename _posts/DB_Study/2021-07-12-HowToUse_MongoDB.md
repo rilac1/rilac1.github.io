@@ -66,6 +66,7 @@ tags: [MongoDB]     # TAG names should always be lowercase
 5. 짠!
     ![캡처](https://user-images.githubusercontent.com/67721382/125256454-6ad54400-e337-11eb-83ec-9452e073e972.PNG)
 
+---
 ## MongoDB 사용하기
 > GUI를 사용하면 Collection을 만들고 삭제할 수는 있지만 Collection 내부의 Data는 삭제가 불가능한 것 같습니다.  
 > 따라서 내부 데이터를 삭제하는 간단한 명령어만 소개하겠습니다.
