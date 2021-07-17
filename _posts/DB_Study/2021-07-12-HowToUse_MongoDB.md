@@ -71,13 +71,13 @@ tags: [MongoDB]     # TAG names should always be lowercase
 > GUI를 사용하면 Collection을 만들고 삭제할 수는 있지만 Collection 내부의 Data는 삭제가 불가능한 것 같습니다.  
 > 따라서 내부 데이터를 삭제하는 간단한 명령어만 소개하겠습니다.
 
-1. 사용할 데이터베이스 선택 / 생성
-    ```
-    > use test                                    # use [DB 이름]
-    ```
-2. 데이터베이스 리스트 확인
+1. 데이터베이스 리스트 확인
     ```
     > show dbs
+    ```
+2. 사용할 데이터베이스 선택 / 생성
+    ```
+    > use myDB                                    # use [DB 이름]
     ```
 3. 데이터 조회
     ```
