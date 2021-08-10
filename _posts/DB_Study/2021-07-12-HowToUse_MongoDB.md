@@ -1,5 +1,5 @@
 ---
-title: "[Ubuntu] 우분투에서의 MongoDB 설치 및 활용"
+title: "[MongoDB] 우분투에서의 MongoDB 설치 및 활용"
 date: 2021-07-12 12:00:00 +/-TTTT
 categories: [DB, MongoDB]
 tags: [MongoDB]     # TAG names should always be lowercase
