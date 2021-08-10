@@ -1,7 +1,7 @@
 ---
-title: 백트래킹으로 순열/조합 구현하기 in Python
+title: [Algorithm]백트래킹으로 순열/조합 구현하기 in Python
 # date: 2021-07-05 12:00:00 +/-TTTT
-categories: [Coding-Test, Algorithm]
+categories: [Algorithm]
 tags: [순열, 조합]     # TAG names should always be lowercase
 ---
 알고리즘 문제를 풀다보면 순열과 조합을 사용하여 모든 경우의 수를 구해봐야할 일이 많습니다. (완전탐색 / 브루트포스)  
