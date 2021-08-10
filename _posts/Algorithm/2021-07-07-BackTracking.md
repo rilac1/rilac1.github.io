@@ -1,6 +1,6 @@
 ---
 title: "[Algorithm]백트래킹으로 순열/조합 구현하기 in Python"
-# date: 2021-07-05 12:00:00 +/-TTTT
+date: 2021-07-05 12:00:00 +/-TTTT
 categories: [Algorithm]
 tags: [순열, 조합]     # TAG names should always be lowercase
 ---
