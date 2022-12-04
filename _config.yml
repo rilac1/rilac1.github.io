@@ -15,7 +15,7 @@ timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: 강정's blog                          # the main title
+title: 배우고, 적용하고, 개선하기                          # the main title
 
 tagline: Department of Software, Dankook Univ   # it will display as the sub-title
 
